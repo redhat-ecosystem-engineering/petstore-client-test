@@ -1,4 +1,7 @@
 {
-  "name": "planner-sdk",
-  "packageManager": "yarn@4.12.0"
+  "name": "@openshift-migration-advisor/planner-sdk",
+  "version": "1.0.0-alpha",
+  "description": "TypeScript SDK for the OpenShift Migration Advisor Planner API",
+  "license": "Apache-2.0",
+  "author": "OpenShift Migration Advisor Team"
 }
