@@ -1,0 +1,21 @@
+---
+    name: Generate API Client
+    
+    on:  # yamllint disable-line rule:truthy
+      push:
+        branches: [main]
+    
+    # Required for npm Trusted Publishing (OIDC)
+    permissions:
+      id-token: write
+      contents: read
+    
+    jobs:
+      generate-client:
+        name: Generate and publish API client
+        uses: kubev2v/migration-planner-client-generator/.github/workflows/generate-and-publish.yml@main
+        with:
+          openapi-spec-url: "https://petstore3.swagger.io/api/v3/openapi.json"
+          package-name: "@redhat-ecosystem-engineering/petstore-client-test"
+          package-version: "0.0.5-alpha"
+        secrets: inherit

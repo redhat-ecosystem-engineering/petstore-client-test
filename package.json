@@ -1,7 +1,7 @@
 {
-  "name": "@openshift-migration-advisor/planner-sdk",
+  "name": "@redhat-ecosystem-engineering/petstore-client-test",
   "version": "1.0.0-alpha",
-  "description": "TypeScript SDK for the OpenShift Migration Advisor Planner API",
+  "description": "TypeScript SDK for the OpenShift Migration Advisor Petshop API",
   "license": "Apache-2.0",
   "author": "OpenShift Migration Advisor Team"
 }
