@@ -17,5 +17,5 @@
         with:
           openapi-spec-url: "https://petstore3.swagger.io/api/v3/openapi.json"
           package-name: "@redhat-ecosystem-engineering/petstore-client-test"
-          package-version: "0.0.5"
+          package-version: "0.0.7"
         secrets: inherit
